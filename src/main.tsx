@@ -17,7 +17,7 @@ const router = createBrowserRouter(
       <Route path="/hello" element={<Hello />} />
     </Route>
   ),
-  { basename: "hello-prerender" }
+  { basename: "/hello-prerender" }
 );
 
 createRoot(document.getElementById("root")!).render(
